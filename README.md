@@ -5,7 +5,7 @@ It's a simple REST API with 4 Endpoints using 4 HTTP methods: GET, POST, PUT, DE
 Each endpoint has it own test that will run using pytest, each test validates that every
 endpoint response has a succesful response returning a status code == 200
 
-In order to being able to install and run the project, Python 3.13+ must be installed
+**⚠️ Warning:** In order to being able to install and run the project, Python 3.13+ must be installed
 
 First Step:
 - Give execute permissions to run_asset file:
