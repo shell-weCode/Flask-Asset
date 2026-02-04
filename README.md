@@ -19,7 +19,7 @@ Second Step:
     
 This script will execute the whole dependencies installation process. (Process explained below)
   - Verifies if python 3.13+ is installed
-  - Creates a virtual environment
+  - Creates and activates a virtual environment
   - Installs dependencies to create a .whl file and then creates the file
   - Intalls the wheel
   - Runs the tests
