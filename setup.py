@@ -1,0 +1,29 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="saul_asset",
+    version="1.0",
+    packages=find_packages(),
+    include_package_data=True,
+    install_requires=[
+        "apispec==6.9.0",
+        "blinker==1.9.0",
+        "click==8.3.1",
+        "Flask==3.1.2",
+        "flask-smorest==0.46.2",
+        "Flask-SQLAlchemy==3.1.1",
+        "iniconfig==2.3.0",
+        "itsdangerous==2.2.0",
+        "Jinja2==3.1.6",
+        "MarkupSafe==3.0.3",
+        "marshmallow==4.2.1",
+        "packaging==26.0",
+        "pluggy==1.6.0",
+        "Pygments==2.19.2",
+        "pytest==9.0.2",
+        "SQLAlchemy==2.0.46",
+        "typing_extensions==4.15.0",
+        "webargs==8.7.1",
+        "Werkzeug==3.1.5",
+    ],
+)
