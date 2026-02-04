@@ -9,7 +9,7 @@ In order to being able to install and run the project, Python 3.13+ must be inst
 
 First Step:
 - Give execute permissions to run_asset file:
-          chmod +x run_asset.sh
+  ´´´chmod +x run_asset.sh´´´
 
 Second Step:
 - Run the script:
